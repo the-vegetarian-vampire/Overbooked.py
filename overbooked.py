@@ -24,6 +24,6 @@ people = ["Seinfeld", "Larry", "Elaine", "George", "Superman"]
 # Add person in the list to a flight
 for person in people:
     if flight.add_passenger(person):
-        print(f"{person} addto flight successfully")
+        print(f"{person} added to flight successfully")
     else:
         print(f"No available seats for {person}")
